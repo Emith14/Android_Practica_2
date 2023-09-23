@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+      <View
+          android:id="@+id/v1"
+          android:layout_width="match_parent"
+          android:layout_height="245dp"
+          android:layout_alignParentTop="true"
+          android:background="@color/green"
+          />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Practica 2 Edson Emith Gonzalez Algarate"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:padding="40dp"
+        />
+
+
+
+    <View
+        android:id="@+id/v2"
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:layout_below="@+id/v1"
+        android:background="@color/white"
+        />
+
+    <View
+        android:id="@+id/lin1"
+        android:layout_width="30dp"
+        android:layout_height="245dp"
+        android:background="@color/brown"
+        android:layout_below="@+id/v1"
+        android:layout_marginLeft="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        />
+
+    <View
+        android:id="@+id/lin2"
+        android:layout_width="30dp"
+        android:layout_height="245dp"
+        android:layout_below="@+id/v2"
+        android:layout_marginRight="120dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/brown"
+        android:layout_alignTop="@+id/v2"/>
+
+
+
+    <View
+        android:id="@+id/v3"
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:layout_below="@+id/v2"
+        android:background="@color/red"
+        />
+
+</RelativeLayout>
